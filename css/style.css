@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap%27');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+	font-family: 'Merriweather', serif;
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 69px;
+}
+
+h3 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 33px;
+	color: #BDBDBD;
+}
+
+html {
+	font-family: 'Lato', sans-serif;
+}
+
+.container {
+    max-width: 1116px;
+    width: 100%;
+    margin: auto;
+}
+
+.header {
+    padding-top: 22px;
+    padding-bottom: 31px;
+}
+
+.header-block {
+    display: flex;
+    justify-content: space-between;
+    height: 57px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 50px;
+	color: #005FA3;
+    margin-left: 30px;
+}
+
+.contacts-header {
+    display: flex;
+    justify-content: space-between;
+    width: 665px;
+}
+
+.contacts-header a {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    color: #000000;
+    text-decoration: none;
+    cursor: unset;
+}
+
+.cont-menu {
+    display: flex;
+	align-items: center;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 17px;
+	color: black;
+    cursor: unset;
+}
+
+.cont-menu img {
+    margin-right: 15px;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 671px;
+    margin-top: 22px;
+}
+
+.menu-link {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #222222;
+}
+
+.section_first {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg1.png);
+    background-repeat: no-repeat;
+    height: 670px;
+}
+
+.first-items {
+    padding-top: 170px;
+}
+
+.first-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 66px;
+    color: #FFFFFF;
+    width: 589px;
+}
+
+input[type="button"] {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #005FA3;
+    margin-top: 80px;
+    width: 270px;
+    height: 60px;
+    border: none;
+}
+
+.right-arrow {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 60px;
+    height: 60px;
+    padding: 22px 25px;
+}
+
+.left-arrow {
+    background: rgba(255, 255, 255, 0.2);
+    width: 60px;
+    height: 60px;
+    padding: 22px 25px;
+}
+
+.first-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.dot {
+    width: 10px;
+}
+
+.slider {
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-arrow, .fourth-arrow {
+    display: flex;
+}
+
+.section_second {
+    background: #EBEBEB;
+}
+
+.title-our {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    color: #BDBDBD;
+    padding-top: 140px;
+    margin-bottom: 40px;
+}
+
+.title-our-1 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    color: #BDBDBD;
+    padding-top: 100px;
+    margin-bottom: 40px;
+}
+
+.title-we {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    color: #333333;
+    margin-bottom: 102px;
+}
+
+.card-1 {
+    background: linear-gradient(0deg, rgba(0, 95, 163, 0.65), rgba(0, 95, 163, 0.65)), url(../img/buhob.png);
+    width: 350px;
+    height: 360px;
+}
+
+.card-2, .card-3, .card-4, .card-5, .card-6 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/buhob.png);
+    width: 350px;
+    height: 360px;
+}
+
+.card-1, .card-2, .card-3 {
+    margin-bottom: 30px;
+}
+
+.card-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-left: 45px;
+    padding-top: 261px;
+}
+
+.cards-buh {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 140px;
+}
+
+.third-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 140px;
+}
+
+.text-about {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    color: #333333;
+    margin-bottom: 60px;
+}
+
+.text-about-in {
+    color: #005FA3;
+}
+
+.moretext-about {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000; 
+    height: 245px;
+    width: 445px;   
+}
+
+.case-third {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    margin-top: 164px;
+}
+
+.case-1, .case-2, .case-3, .case-4 {
+    width: 255px;
+    height: 255px;
+    background: #EBEBEB;
+}
+
+.case-1, .case-3 {
+    margin-right: 30px;
+}
+
+.case-3, .case-4 {
+    margin-top: 30px;
+}
+
+.case-4 {
+    background: #005FA3;
+}
+
+.case-num {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 66px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase; 
+    color: #000000;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.case-num-4 {
+    color: #FFFFFF;
+}
+
+.case-text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    width: 107px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.case-text-4 {   
+    color: #FFFFFF;
+}
+
+.allcases {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px; 
+    text-decoration-line: underline;
+    color: #005FA3;
+    margin-top: 47px;
+    margin-left: 40px;
+}
+
+.allcases-4 {
+    color: #FFFFFF;   
+}
+
+.section_fourth {
+    background: #EBEBEB;
+}
+
+.microsoft {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.left-arrow-1, .right-arrow-1 {
+    background: #005FA3;
+    opacity: 0.2;
+    width: 60px;
+    height: 60px;
+    padding: 22px 25px;
+}
+
+.fourth-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
